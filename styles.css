@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=MuseoModerno:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+ }
+ html {
+    height: 100%;
+    background: white;
+    background: radial-gradient(circle, #fff 20%, #ccc);
+    background-size: cover;
+ }
+ #navbar-primary .navbar-nav { 
+     background: #ededed;
+      width: 100%;
+      text-align: center;
+     
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+.a-navbar{
+    text-align: center;
+    size: 150px;
+    font-family: 'MuseoModerno', cursive;
+    text-decoration: none;
+}
+
+ #calculadora {
+    width: 330px;
+    height: auto;
+ 
+    margin: 100px auto;
+    padding: 20px 20px 9px;
+ 
+    background: #1e5c79;
+    background: linear-gradient(#2d6580, #204353);
+    border-radius: 3px;
+    box-shadow: 0px 4px #021f2c, 0px 10px 15px rgba(0, 0, 0, 0.2);
+    
+ }
+ 
+ .top span.limp {
+    float: left;
+ }
+ 
+ .top .display {
+    height: 40px;
+    width: 212px;
+ 
+    float: right;
+ 
+    padding: 0 10px;
+ 
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+    font-size: 17px;
+    line-height: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: right;
+    letter-spacing: 1px;
+    
+ }
+ 
+ .num,
+ .top {
+    overflow: hidden;
+ }
+ 
+ .num span,
+ .top span.limp {
+    font-family: 'Space Mono', monospace;
+    float: left;
+    position: relative;
+    top: 0;
+ 
+    cursor: pointer;
+ 
+    width: 66px;
+    height: 36px;
+ 
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+ 
+    margin: 0 7px 11px 0;
+ 
+    color: rgb(136, 136, 136);
+    line-height: 36px;
+    text-align: center;
+    user-select: none;
+    transition: all 0.2s ease;
+ }
+ .num span.operador {
+    background: #e9628a;
+    margin-right: 0;
+    color: rgba(68, 49, 49, 0.808);
+ }
+ 
+ .num span.result {
+    background: #1f3b3a;
+    box-shadow: 0px 4px #58ac92;
+    color: #58ac92;
+ }
+ 
+ .top span.limp {
+    background: #d33c4b;
+    box-shadow: 0px 4px #53090f;
+    color: white;
+ }
+ 
+ .num span:hover {
+    background: #387a9b;
+    box-shadow: 0px 4px #364c6e;
+    color: white;
+ }
+ 
+ .num span.result:hover {
+    background: #14382d;
+    box-shadow: 0px 4px #1c633a;
+    color: #ffffff;
+ }
+ 
+ .top span.limp:hover {
+    background: #942a31;
+    box-shadow: 0px 4px #a13038;
+    color: white;
+ }
+ 
+ .num span:active {
+    box-shadow: 0px 0px #677bd4;
+    top: 4px;
+ }
+ 
+ .num span.result:active {
+    box-shadow: 0px 0px #717a33;
+    top: 4px;
+ }
+ 
+ .top span.limp:active {
+    top: 4px;
+    box-shadow: 0px 0px #d3545d;
+ }
+ 
